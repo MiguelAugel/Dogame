@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AttackData" format=3 uid="uid://dgyi81dvix5qu"]
+
+[ext_resource type="Script" uid="uid://di1oi1kg7y058" path="res://scripts/effect_data.gd" id="1_w0pcl"]
+[ext_resource type="Script" uid="uid://dh314jtdyyq2m" path="res://scripts/attack_data.gd" id="2_w0pcl"]
+[ext_resource type="PackedScene" uid="uid://ds3x0js03gwln" path="res://scenes/projectile.tscn" id="2_wsvxr"]
+
+[resource]
+script = ExtResource("2_w0pcl")
+damage = 5.0
+fire_rate = 2.5
+projectile_range = 250.0
+projectile_scene = ExtResource("2_wsvxr")
+metadata/_custom_type_script = "uid://dh314jtdyyq2m"
